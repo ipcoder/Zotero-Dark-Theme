@@ -10,8 +10,8 @@ color: #FFFFFF !important; }
 /*change color of menu items to white*/
 #navigator-toolbox menu { color: white !important }
 
-/*change color of menu items in drop down menus back to black*/
-#manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
+/*change color of menu items in drop down menus ?back to #aaaaaa*/
+#manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: #aaaaaa !important; }
 
 /*Fixed New Item showing in white*/
 #navigator-toolbox menu:first-child { color: unset !important; }
@@ -53,25 +53,25 @@ color: black !important; }
 
 /*change background and color of collections and items panes*/
 treechildren { background: #323234 !important;
-color: #FFFFFF !important; }
+color: #aFaFaF !important; }
 
 /*for Zotero 6*/
-.virtualized-table .row{background: #323234 !important; color: #FFFFFF !important;}
+.virtualized-table .row{background: #323234 !important; color: #aFaFaF !important;}
 .virtualized-table .row.highlighted {background: #BBCEF1 !important; color: black !important;}
-.virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
+.virtualized-table .row.selected {background: #274249 !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important;}
 .virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important;}
-.row:hover { background: #7E7E7E !important;
-color: #FFFFFF !important; border: 0 !important; }
+.row:hover { background: #2E4E7E !important;
+color: #aFaFaF !important; border: 0 !important; }
 
 
 .tabs {  background: #474749 !important;
-  color: #FFFFFF !important;
+  color: #aFaFaF !important;
 border: 0px !important; }
 
 .tab {-moz-appearance: none !important;
-color: #7E7E7E !important;
+color: #bEbEbE !important;
 background: #474749 !important;
 border-left: 0px solid rgba(127,127,127) !important;
 border-right: 0px solid rgba(127,127,127) !important;}
@@ -103,33 +103,33 @@ border-bottom-right-radius: 0px !important; }
 
 /*PDF reader notes list*/
 .notes-list-container { background: #323234 !important;
-color: #ffffff !important; }
+color: #afafaf !important; }
 
 .note-row {background: #474749 !important;
-  color: #ffffff !important; }
+  color: #afafaf !important; }
 
-.note-row .date {color: #ffffff !important; }
+.note-row .date {color: #afafaf !important; }
 
 .more-row { background: #474749 !important;
-  color: #ffffff !important; }
+  color: #afafaf !important; }
 
-.note-row:hover, .more-row:hover {background: #7E7E7E !important;
-color: #FFFFFF !important; }
+.note-row:hover, .more-row:hover {background: #2E4E7E !important;
+color: #aFaFaF !important; }
 
 /*collections tree background*/
-#zotero-collections-tree { color: #ffffff; background: #323234 !important; }
+#zotero-collections-tree { color: #afafaf; background: #626264 !important; }
 /*increase spacing between rows in collections and items and add a border to separate panes (not working on zotero 6)*/
 /*#zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
 .virtualized-table { rowHeight: 30px !important; } */
 /*change background and color of collections when hovering*/
-#zotero-collections-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
-color: #FFFFFF !important; border: 0 !important; }
+#zotero-collections-tree treechildren::-moz-tree-row(hover) { background: #3E5E7E !important;
+color: #aFaFaF !important; border: 0 !important; }
 
 /*change color of selected item in Collections pane (My library or folders) */
 #zotero-collections-tree treechildren::-moz-tree-cell(selected) { background: #474749 !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important; }
 
-#zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
+#zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #bFbFbF !important; }
 
 #zotero-collections-tree treechildren { border-right: 1px solid #1d1d1d !important ; }
 /*for Zotero 6*/
@@ -138,11 +138,11 @@ border-bottom: 1px solid #1d1d1d !important; }
 /*#zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }*/
 #zotero-items-tree { border-right: 1px solid #1d1d1d !important;
 border-bottom: 1px solid #1d1d1d !important; 
-color: #ffffff; background: #323234 !important; }
+color: #afafaf; background: #323234 !important; }
 
 /*change background and color of items when hovering*/
-#zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
-color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree treechildren::-moz-tree-row(hover) { background: #2E3E7E !important;
+color: #bFbFbF !important; border: 0 !important; }
 
 /*change background and color of items when selecting*/
 #zotero-items-tree treechildren::-moz-tree-row(selected) { background: #474749 !important;
